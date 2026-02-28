@@ -1,6 +1,9 @@
 .env.codex
 node_modules/
-workspace/
+codex_*.json
 *.key
 *.pem
 .DS_Store
+workspace/memory/*.md
+workspace/memory/*.json
+workspace/memory/*.txt

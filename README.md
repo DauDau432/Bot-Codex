@@ -83,10 +83,13 @@ systemctl enable --now tele-codex-bot
 ---
 
 ## 🛠 Lệnh Telegram hỗ trợ
-- `/reset`: Xóa lịch sử chat, bắt đầu phiên mới.
-- `/model`: Chọn model Codex (GPT-5, GPT-4...).
-- `/sandbox`: Thay đổi quyền thực thi lệnh.
-- `/thinking`: Chỉnh độ sâu suy nghĩ của AI.
+- `/start`, `/help`: Hiển thị bảng mô tả (mỗi lệnh mở tuỳ logic của bot).
+- `/new`: Mở một phiên trò chuyện (Thread/Session) mới.
+- `/close`: Đóng phiên trò chuyện hiện tại.
+- `/status`: Liệt kê các lỗi và chi tiết lệnh gần nhất được thực thi.
+- `/mode`: Mở menu chọn Model, độ sâu suy nghĩ, Sandbox và Approval.
+- `/list`: Liệt kê các session.
+- `/stop`: Dừng lệnh sinh trả lời của model ngay lập tức.
 
 ## 📦 Sao lưu (Backup)
 Gom toàn bộ "linh hồn" của hệ thống vào 1 file:

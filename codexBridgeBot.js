@@ -30,7 +30,7 @@ const CONFIG = {
   telegramToken: process.env.TELEGRAM_BOT_TOKEN,
   allowedChatId: process.env.TELEGRAM_ALLOWED_CHAT_ID || "",
   codexCmd: process.env.CODEX_CMD || "/usr/local/bin/codex",
-  codexWorkdir: process.env.CODEX_WORKDIR || "/root",
+  codexWorkdir: process.env.CODEX_WORKDIR || "/opt/tele-codex-bot/workspace",
   codexModel: process.env.CODEX_MODEL || "",
   codexModelOptions: (process.env.CODEX_MODEL_OPTIONS ||
     "gpt-5.3-codex,gpt-5.2-codex,gpt-5.1-codex-max,gpt-5.2,gpt-5.1-codex-mini")
