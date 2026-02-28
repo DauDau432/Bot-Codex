@@ -1,0 +1,12 @@
+{
+  "name": "telegram-codex-bridge-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram Codex bridge bot",
+  "main": "codexBridgeBot.js",
+  "scripts": {
+    "start": "node codexBridgeBot.js",
+    "codex": "node codexBridgeBot.js"
+  }
+}
+

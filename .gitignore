@@ -1,0 +1,6 @@
+.env.codex
+node_modules/
+workspace/
+*.key
+*.pem
+.DS_Store
